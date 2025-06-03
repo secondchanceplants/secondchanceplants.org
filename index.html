@@ -1,0 +1,50 @@
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-green-50 flex items-center justify-center p-6">
+      <div className="max-w-4xl w-full text-center bg-white shadow-xl rounded-2xl p-10 border border-green-200 space-y-8">
+        <h1 className="text-5xl font-bold text-green-700">Second Chance Plants</h1>
+        <p className="text-lg text-gray-700">
+          Giving new life to plants and trees destined for the trash — showing that with a little care, even what's been discarded can thrive again.
+        </p>
+
+        <section className="text-left">
+          <h2 className="text-2xl font-semibold text-green-800 mb-2">About Us</h2>
+          <p className="text-gray-700">
+            Second Chance Plants is a nonprofit dedicated to rescuing unsellable plants from nurseries and wholesalers — plants that would otherwise be thrown away. We use them to beautify communities, teach environmental responsibility, and inspire hope through regeneration.
+          </p>
+        </section>
+
+        <section className="text-left">
+          <h2 className="text-2xl font-semibold text-green-800 mb-2">How It Works</h2>
+          <ul className="list-disc list-inside text-gray-700 space-y-1">
+            <li>We partner with plant wholesalers to receive donated, unsellable plants.</li>
+            <li>Our team and volunteers revive and rehome the plants.</li>
+            <li>We deliver plants to schools, memorial gardens, urban spaces, and more.</li>
+          </ul>
+        </section>
+
+        <section className="text-left">
+          <h2 className="text-2xl font-semibold text-green-800 mb-2">Get Involved</h2>
+          <p className="text-gray-700">
+            Whether you're a plant lover, student, teacher, or business, there’s a place for you in our mission. You can volunteer, donate, sponsor a project, or help us spread the word.
+          </p>
+        </section>
+
+        <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+          <a
+            href="#"
+            className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition"
+          >
+            Donate
+          </a>
+          <a
+            href="#"
+            className="bg-white border border-green-600 text-green-700 hover:bg-green-100 font-semibold py-3 px-6 rounded-xl shadow-md transition"
+          >
+            Volunteer
+          </a>
+        </div>
+      </div>
+    </main>
+  );
+}
